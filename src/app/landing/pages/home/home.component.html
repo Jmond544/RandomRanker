@@ -1,1 +1,28 @@
-<p>home works!</p>
+<section class="min-h-full flex flex-col justify-center">
+
+  <div class="mt-4 mx-autotext-center text-center items-center">
+    <ng-icon
+    name="heroCodeBracketSquare"
+    class="text-9xl text-slate-400"
+  ></ng-icon>
+</div>
+<h1 class="mx-auto text-center my-4 text-4xl font-bold text-slate-400">
+  Welcome to Random Ranker
+</h1>
+<div class="mx-auto max-w-lg text-center mb-4">
+  <p class="text-lg font-bold mb-4">Your Ultimate Choice Chaos Controller!</p>
+  <p class="text-sm">
+    Effortlessly randomize your options with a tap, making decisions fun and
+    fair!
+  </p>
+</div>
+
+<a
+  [routerLink]="'/randomizer'"
+  class="mx-auto w-44 flex flex-row justify-around text-center items-center gap-2 px-4 py-2 bg-yellow-700 text-slate-50 rounded-xl border border-slate-100/10 hover:bg-yellow-600 transition-all duration-300"
+>
+  <p class="font-bold">Get Started</p>
+  <ng-icon name="heroArrowRightCircle" class="text-2xl text-slate-50"></ng-icon>
+</a>
+
+  </section>

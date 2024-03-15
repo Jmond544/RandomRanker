@@ -16,6 +16,11 @@ export const routes: Routes = [
         loadComponent: () => import('./landing/pages/home/home.component'),
       },
       {
+        path: 'randomizer',
+        title: 'Randomizer',
+        loadComponent: () => import('./landing/pages/ranker/ranker.component'),
+      },
+      {
         path: 'about',
         title: 'About',
         loadComponent: () => import('./landing/pages/about/about.component'),
