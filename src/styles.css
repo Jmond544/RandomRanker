@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply text-2xl font-bold text-slate-400 min-w-40 text-center;
+  }
+}
+
+@layer components {
+  .block-container {
+    @apply w-full p-4 text-center border grid grid-flow-col items-center gap-4 border-slate-200/20 rounded-xl my-5 shadow-lg shadow-slate-400/10 hover:shadow-xl hover:shadow-slate-400/10;
+  }
+
+}

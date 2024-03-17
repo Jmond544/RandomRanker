@@ -20,7 +20,6 @@ export class SimpleRandomizeComponent {
 
   handleAddListItems(items: string[]) {
     this.listaItems = items;
-    console.log(this.listaItems);
   }
 
   handleRandomizeList() {
