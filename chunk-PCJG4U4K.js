@@ -1,0 +1,1 @@
+var o=[{path:"",loadComponent:()=>import("./chunk-2OFXA45U.js"),children:[{path:"",pathMatch:"full",redirectTo:"home"},{path:"home",title:"Home",loadComponent:()=>import("./chunk-YOWSUDVS.js")},{path:"randomizer",title:"Randomizer",loadComponent:()=>import("./chunk-6IBGX2A5.js")},{path:"about",title:"About",loadComponent:()=>import("./chunk-QJ2PRTXB.js")}]}];export{o as a};
